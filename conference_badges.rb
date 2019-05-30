@@ -11,7 +11,7 @@ def batch_badge_creator(list)
   greeting = []
   count = 0
   while count <= list.length-1
-    greeting.push("Hello, my name is #{list[count]}")
+    greeting.push("Hello, my name is #{list[count]}.")
     count = count + 1
   end
   greeting
