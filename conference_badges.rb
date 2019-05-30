@@ -33,7 +33,7 @@ def printer(list)
   count = 0
   while count <= batch_badge_creator(list).length-1 && count <= assign_rooms(list).length-1
     puts batch_badge_creator(list)[count]
-    puts assign_rooms(list)[count]
+    # puts assign_rooms(list)[count]
     count = count + 1
     end
 
