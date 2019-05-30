@@ -22,7 +22,7 @@ def assign_rooms(list)
   room = []
   count = 0
   while count <= list.length-1
-    room.push("Hello, #{list[count]}! You'll be assigned to room #{count + 1}" )
+    room.push("Hello, #{list[count]}! You'll be assigned to room #{count + 1}!" )
     count = count + 1
   end
   room
